@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:61523",
+      "sslPort": 44335
+    }
+  },
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:5187",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:7150;http://localhost:5187",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AdventureWorksCosmosContext": "AccountEndpoint=https://advcosmosmtkn.documents.azure.com:443/;AccountKey=EEqWxk80Wf9yxITx9Q2d66Jda48mKRIoTUmC280MllKG6Br3xvEqLCMETHZP6T0zyiQahZ1P3UuiACDbRImyOg==;",
+        "BlobContainerUrl": "https://storworkmtkn.blob.core.windows.net/images",
+        "BlobSASToken": "sp=r&st=2024-03-25T00:58:52Z&se=2024-05-10T08:58:52Z&spr=https&sv=2022-11-02&sr=c&sig=LOuyCHWOSzrc2N4LnIjyy6tlp%2B6Si9uXu2otlH27x0I%3D"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
